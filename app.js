@@ -5,14 +5,10 @@ const express = require('express'),
 	{ getIntrospectSchema } = require('./introspection');
 
 const endpoints = [
-	'https://afrieqa-admin.herokuapp.com/graphql/',
+	// 'https://sebsib-api-v2.herokuapp.com/graphql/',
+	'http://localhost:4024/graphql',
 	'https://text-auth-twilio.herokuapp.com/'
 ];
-
-// const endpoints = [
-// 	'http://localhost:4001/graphql',
-// 	'https://text-auth-twilio.herokuapp.com/'
-// ];
 
 (async function () {
 	try {
